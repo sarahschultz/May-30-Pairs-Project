@@ -1,0 +1,46 @@
+body {
+    color: darkblue;
+    background-image: radial-gradient(rgb(230, 213, 250), rgb(254, 221, 227));
+}
+
+h1 {
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(18, 47, 210);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+}
+
+#products-display {
+    background-color: #f8f3f7;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 3px dashed purple;
+    border-radius: 5px;
+    margin-top: -1%;
+    align-items: center;
+}
+
+#products-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+#posts-display {
+
+}
+
+#posts-container {
+
+}
